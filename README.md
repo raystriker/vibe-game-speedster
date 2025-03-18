@@ -23,3 +23,12 @@ cd backend
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
 ```
 The backend API will be accessible at http://localhost:8000
+
+## TO-DO
+
+1. Better wall collision 
+2. Other player's walls are not rendered properly
+3. Ensure special skills are working properly
+4. Increase speed of all players
+5. Add better terrain
+6. Add more info in HUD
