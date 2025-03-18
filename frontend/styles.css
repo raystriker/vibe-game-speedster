@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+}
+
+#game-hud {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    z-index: 100;
+}
+
+#ability-indicator {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 50, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#character-selection {
+    position: absolute;
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(0, 0, 50, 0.8);
+    color: white;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game-over-screen {
+    position: absolute;
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(0, 0, 50, 0.8);
+    color: white;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 200;
+}
+
+.game-over-screen button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #0088ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.game-over-screen button:hover {
+    background: #00aaff;
+}
